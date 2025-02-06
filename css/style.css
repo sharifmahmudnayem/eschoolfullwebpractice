@@ -245,6 +245,7 @@ header{
   color: #818090;
 }
 .footer-list ul li a span{
+  font-size: 18px;
   color: #fff;
   font-weight: 500;
 }
