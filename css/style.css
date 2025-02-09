@@ -144,6 +144,7 @@ header{
 
 .course-section{
   width: 100%;
+  width: 100%;
   padding: 20px 0;
 }
 .course-section .c-header{
@@ -191,13 +192,24 @@ header{
   display: flex;
   justify-content: space-between;
 }
-.icon-text i{
+.icon-text{
+  display: flex;
+}
+.ico{
   padding-right: 5px;
 }
+.ico img{
+  width: 24px;
+}
+.icon-text .ico-txt p{
+  margin-top: 2.5px;
+}
+
 
 /* Testimonial Section Start */
 
 .testimonial-section {
+  width: 100%;
   text-align: center;
   padding: 50px 0 80px;
 }
@@ -228,6 +240,7 @@ header{
 /* Footer Area */
 
 .footer-section{
+  width: 100%;
   padding: 50px 0 10px;
   background-color: #282531;
 }
@@ -252,7 +265,7 @@ header{
 .footer-list ul li a{
   text-decoration: none;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 2;
   transition: all 0.7s ease;
 }
@@ -265,4 +278,14 @@ header{
   text-align: center;
   font-weight: 500;
   color: #CDCDCD;
+}
+.footer-copyright a{
+  	text-decoration: none;
+    color: #CDCDCD;
+    transition: all 0.7s ease;
+}
+.footer-copyright a:hover{
+  color: #21B573;
+  transition: all 0.7s ease;
+  text-decoration: underline #21B573;
 }
