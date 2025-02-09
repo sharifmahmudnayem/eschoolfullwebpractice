@@ -279,12 +279,12 @@ header{
   font-weight: 500;
   color: #CDCDCD;
 }
-.footer-copyright a{
-  	text-decoration: none;
-    color: #CDCDCD;
-    transition: all 0.7s ease;
+.footer-copyright p a{
+  text-decoration: none;
+  color: #CDCDCD;
+  transition: all 0.7s ease;
 }
-.footer-copyright a:hover{
+.footer-copyright p a:hover{
   color: #21B573;
   transition: all 0.7s ease;
   text-decoration: underline #21B573;
